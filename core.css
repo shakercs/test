@@ -6,7 +6,7 @@ a:hover, a:focus {
 /* SHAKERCS Framework 
 --------------------------------*/
 .width960 {
-	max-width: 982px;
+	width: 982px;
 	margin: auto;
 }
 /* directions
