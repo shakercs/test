@@ -1,0 +1,244 @@
+/* bootstrap 3 reset
+----------------------*/
+a:hover, a:focus {
+	text-decoration: none;
+}
+/* SHAKERCS Framework 
+--------------------------------*/
+.width960 {
+	max-width: 982px;
+	margin: auto;
+}
+/* directions
+------------------*/
+.rtl {
+	direction: rtl;
+}
+.ltr {
+	direction: ltr;
+}
+/* width 
+--------------------*/
+
+/* Aligns 
+--------------------*/
+.rtl .align-r-all *, .rtl .align-r {
+	text-align: right;
+}
+.ltr .align-r-all *, .ltr .align-r {
+	text-align: left;
+}
+.rtl .align-l-all *, .rtl .align-l {
+	text-align: left;
+}
+.ltr .align-l-all *, .ltr .align-l {
+	text-align: right;
+}
+.ltr .align-c-all *, .ltr .align-c-all *, .ltr .align-c, .rtl .align-c {
+	text-align: center;
+}
+/*----------------------------*/
+
+/* Floats 
+---------------*/
+.rtl .float-r {
+	float: right;
+}
+.rtl .float-l {
+	float: left;
+}
+.ltr .float-r {
+	float: left;
+}
+.ltr .float-l {
+	float: right;
+}
+/*--------------------------*/
+
+
+/* overflow 
+------------------------*/
+.overflow-hidden {
+	overflow: hidden;
+}
+/*-------------------------*/
+
+/*blocks row
+-------------------*/
+.row-block > .block {
+	float: none;
+}
+.rtl .row-multi-block > .block {
+	float: right;
+}
+.ltr .row-multi-block > .block {
+	float: right;
+}
+/* display 
+-------------------*/
+.none {
+	display: none;
+}
+.inline {
+	display: inline;
+}
+.inline-block {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	vertical-align: top;
+}
+.inline-menu > li {
+	display: inline;
+}
+.table-cell {
+	display: table-cell;
+	vertical-align: top;
+}
+.block {
+	display: block;
+}
+/* position 
+----------------------*/
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.rtl .right {
+	right: 0;
+}
+.rtl .left {
+	left: 0;
+}
+.ltr .right {
+	left: 0;
+}
+.ltr .left {
+	right: 0;
+}
+.top {
+	top: 0;
+}
+.bottom {
+	bottom: 0;
+}
+/*---------------------*/
+.reset, .reset:hover, .reset:focus {
+	background: none;
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: auto;
+	max-height: none;
+	max-width: none;
+	border-radius: 0;
+}
+.reset-all *, .reset-all *:hover {
+	background: none;
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: auto;
+	max-height: none;
+	max-width: none;
+	border-rauis: 0;
+}
+.padding-0, .padding-0:hover {
+	padding: 0 !important;
+}
+.margin-0, .margin-0:hover {
+	margin: 0 !important;
+}
+/* Fonts 
+--------------------*/
+@font-face {
+	font-family: 'Midan W23 Black';
+	src: url('fonts/93ef710c-0fcb-413b-ad0b-65980644f7bb.eot?iefix') format('embedded-opentype');
+}
+@font-face {
+	font-family: 'Midan W23 Black';
+	src: url('fonts/91f50f03-a084-48a5-a1bf-1ceafef235e1.ttf') format('truetype'), url('fonts/53708bf0-596d-49f1-9a7d-16354460627a.svg#53708bf0-596d-49f1-9a7d-16354460627a') format('svg'), url('fonts/1eb5cb72-1f31-4b65-b7b8-25e04849900d.woff') format('woff');
+}
+@font-face {
+	font-family: 'Midan W23';
+	src: url('fonts/b29b6cfe-efb5-459d-b69a-6dc1eb32a09a.eot?iefix') format('embedded-opentype');
+}
+@font-face {
+	font-family: 'Midan W23';
+	src: url('fonts/770b1c0c-4e80-4254-bf5a-f5fc028db113.ttf') format('truetype'), url('fonts/f91585b9-218a-4181-88c0-ff875a54cfe4.svg#f91585b9-218a-4181-88c0-ff875a54cfe4') format('svg'), url('fonts/eaa2ab41-02ed-4da4-8cba-48de42be9f5b.woff') format('woff');
+}
+
+@font-face {
+	font-family: "frutiger2";
+	src: url('fonts/FrutigerLight.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "frutiger2";
+	src: url('fonts/FrutigerBold.woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'frutiger';
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-45Light.eot');
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-45Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-45Light.woff2') format('woff2'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-45Light.woff') format('woff'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-45Light.ttf') format('truetype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-45Light.svg#FrutigerLTArabic-45Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger';
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.eot');
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.woff2') format('woff2'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.woff') format('woff'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.ttf') format('truetype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-65Bold.svg#FrutigerLTArabic-65Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger';
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.eot');
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.woff2') format('woff2'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.woff') format('woff'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.ttf') format('truetype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-55Roman.svg#FrutigerLTArabic-55Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger';
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-75Black.eot');
+    src: url('fonts/frutiger/subset-FrutigerLTArabic-75Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-75Black.woff2') format('woff2'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-75Black.woff') format('woff'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-75Black.ttf') format('truetype'),
+        url('fonts/frutiger/subset-FrutigerLTArabic-75Black.svg#FrutigerLTArabic-75Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
